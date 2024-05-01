@@ -11,5 +11,5 @@ print(lengh_of_list)
 for wedding_list in wedding_lists:
     wedding_list =str(wedding_list)
     wedding_list = wedding_list.lower()
-    new_wedding_list = wedding_list
-    print(new_wedding_list)
+    new_wedding_list.append(wedding_list)
+print(new_wedding_list)
